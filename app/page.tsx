@@ -1,3 +1,4 @@
+import Faq from "./components/Faq";
 import Steps from "./components/Steps";
 import Spotlight from "./components/ui/Spotlight";
 
@@ -73,7 +74,13 @@ export default function Home() {
         </button>
       </div>
 
-      <Steps />
+      <section className="py-10">
+        <Steps />
+      </section>
+
+      <section className="w-full pt-20">
+        <Faq />
+      </section>
 
     </main>
   );
