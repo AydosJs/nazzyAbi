@@ -51,7 +51,7 @@ const Different = () => {
         </div>
       </div>
 
-      <button className="inline-flex animate-shimmer items-center justify-center rounded-md border border-gray-800 bg-[linear-gradient(110deg,#0a0a0a,45%,#525252,55%,#0a0a0a)] bg-[length:200%_100%] p-6 text-white transition-colors outline-none">
+      <button className="inline-flex animate-shimmer items-center justify-center rounded-md border border-neutral-800 bg-[linear-gradient(110deg,#0a0a0a,45%,#525252,55%,#0a0a0a)] bg-[length:200%_100%] p-6 text-white transition-colors outline-none">
         GET STARTED
         <span className="text-xl ml-4">
           -&gt;
