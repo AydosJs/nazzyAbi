@@ -16,7 +16,7 @@ const Accordion: React.FC<AccordionProps> = ({ title, content }) => {
   return (
     <div>
       <button
-        className="flex items-center focus:outline-none"
+        className="flex items-center focus:outline-none w-full py-2"
         onClick={handleToggle}
       >
         {isOpen ? (
@@ -35,7 +35,7 @@ const Accordion: React.FC<AccordionProps> = ({ title, content }) => {
 
       </button>
       {isOpen && (
-        <div className="flex mt-8 md:mx-10">
+        <div className="flex my-4 md:mx-10 ">
           <span className="border border-neutral-700"></span>
           <p className="max-w-3xl px-4 text-gray-400">
             {content}

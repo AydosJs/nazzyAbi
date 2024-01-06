@@ -1,7 +1,7 @@
 const Steps = () => {
   return (
     <>
-      <h1 className="text-left text-5xl mb-10 font-bold">
+      <h1 className="text-left text-5xl my-20 font-semibold">
         The Roadmap -&gt;
       </h1>
 
@@ -245,6 +245,9 @@ const Steps = () => {
               <div className="text-3xl font-black text-gray-400">Step 7</div>
               <div className="text-gray-400 text-sm">JOB</div>
             </div>
+            <div className="h-full border-l-4 border-transparent">
+              <div className="border-l-4 mr-4 h-full border-gray-300 border-dashed"></div>
+            </div>
           </div>
           <div className="flex-auto rounded  border-gray-300">
             <div className="flex md:flex-row flex-col items-center">
@@ -265,7 +268,25 @@ const Steps = () => {
           </div>
         </div>
 
-      </div>
+        {/* step-6 */}
+        <div className="flex items-start flex-row">
+          <div className="border-t-4 border-r-4 border-transparent">
+            <div className="w-16 ml-16 h-16 border-l-4 border-gray-300 border-dashed border-b-4 rounded-bl-full"></div>
+          </div>
+          <div className="border-t-4 border-transparent flex-auto">
+            <div className="h-16 border-b-4 border-gray-300 border-dashed"></div>
+          </div>
+          <div className="w-16 mt-16 mr-16 h-24 border-r-4 border-gray-300 border-dashed border-t-4 rounded-tr-full"></div>
+        </div>
+        <div className="flex flex-row-reverse">
+          <button className="hover:bg-white transition-all hover:text-neutral-950 font-medium mx-10 text-xl mt-10 w-full border-4 border-white rounded-full border-dashed  p-6">
+            GET STARTED
+            <span className="text-2xl ml-4">
+              -&gt;
+            </span>
+          </button>
+        </div>
+      </div >
 
     </ >
   )
