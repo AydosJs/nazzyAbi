@@ -28,7 +28,8 @@ const Different = () => {
       </h1>
 
       <div className="flex flex-row space-x-4">
-        <div className="w-1/2 border border-neutral-800 rounded-md p-6 group cursor-pointer bg-transparent backdrop-blur-sm backdrop-filter">
+
+        <div className="w-1/2 border border-neutral-800 rounded-md p-6 group cursor-pointer bg-white bg-opacity-5 hover:backdrop-blur-[1px] backdrop-filter">
           <img
             className="w-full h-60"
             src="https://placehold.co/462x240"
@@ -39,19 +40,26 @@ const Different = () => {
           </h1>
         </div>
 
-        <div className="w-1/2 border border-neutral-800 rounded-md p-6 group cursor-pointer bg-transparent backdrop-blur-sm backdrop-filter">
+        <div className="w-1/2 border border-neutral-800 rounded-md p-6 group cursor-pointer bg-white bg-opacity-5 hover:backdrop-blur-[1px] backdrop-filter">
+          {/* <div className="w-full h-60">
+            <Image src="/462x240" alt='no image'
+              width={0} height={0} sizes="100vw"
+              className="w-full h-auto"
+            />
+          </div> */}
           <img
             className="w-full h-60"
             src="https://placehold.co/462x240"
             alt="no image"
           />
+
           <h1 className="text-xl font-medium mt-6 group-hover:underline">
             My Mentor AI
           </h1>
         </div>
       </div>
 
-      <button className="inline-flex animate-shimmer items-center justify-center rounded-md border border-neutral-800 bg-[linear-gradient(110deg,#0a0a0a,45%,#525252,55%,#0a0a0a)] bg-[length:200%_100%] p-6 text-white transition-colors outline-none">
+      <button className="inline-flex animate-shimmer items-center justify-center rounded-md border border-neutral-800 bg-[linear-gradient(110deg,transparent,45%,#525252,55%,transparent)] bg-[length:200%_100%] bg-white bg-opacity-5 p-6 hover:backdrop-blur-[1px] backdrop-filter text-white transition-colors outline-none">
         GET STARTED
         <span className="text-xl ml-4">
           -&gt;
