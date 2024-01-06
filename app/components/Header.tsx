@@ -19,7 +19,7 @@ const Header = () => {
   }, [isOpen]);
 
   return (
-    <header className="top-0 sticky p-4 sm:px-8 border-b bg-neutral-950 bg-opacity-60 backdrop-filter backdrop-blur-lg z-50 text-white border-neutral-800">
+    <header className="top-0 sticky p-4 px-6 sm:px-8 border-b bg-neutral-950 bg-opacity-60 backdrop-filter backdrop-blur-lg z-50 text-white border-neutral-800">
       <div className="container mx-auto flex flex-row flex-nowrap justify-between">
         <div>
           <h1 className="text-2xl font-medium">RoadMap</h1>

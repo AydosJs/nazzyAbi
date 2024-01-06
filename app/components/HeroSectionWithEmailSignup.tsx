@@ -25,17 +25,17 @@ const HeroSectionWithEmailSignup = () => {
   }, []);
 
   return (
-    <div className="pb-16 flex items-center flex-col space-y-10 min-h-[calc(100vh-85px)] justify-center">
+    <div className="pb-32 md:pb-16 flex items-center flex-col space-y-10 min-h-[calc(100vh-20px)] md:min-h-[calc(100vh-85px)] justify-center">
 
       <Spotlight
-        className="-top-32 left-0 md:left-80"
+        className="-top-0 sm:-top-32 left-10 md:-top-24 md:left-10 lg:left-60 lg:-top-10 2xl:-top-32 2xl:left-80"
         fill="white"
       />
 
       <div>
-        <TextGenerateEffect delay={0.4} words={'Learn. Build. Grow.'} className="text-7xl font-bold text-center mb-2" />
+        <TextGenerateEffect delay={0.4} words={'Learn. Build. Grow.'} className="text-6xl md:text-7xl font-bold text-center mb-2" />
         <motion.p
-          className="transition-all duration-300 ease-in-out delay-150 text-xl text-center font-normal text-gray-400"
+          className="transition-all duration-300 ease-in-out delay-150 text-lg md:text-xl text-center font-normal text-gray-400"
           initial={{ opacity: 0 }}
           animate={{ opacity: isMounted ? 1 : 0 }}
           transition={{ duration: 3 }}

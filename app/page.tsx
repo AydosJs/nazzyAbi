@@ -5,7 +5,7 @@ import Steps from "./components/Steps";
 
 export default function Home() {
   return (
-    <main className="container mx-auto flex flex-col sm:px-60">
+    <main className="container mx-auto flex flex-col px-6 lg:px-24 xl:px-60">
 
       <section>
         <HeroSectionWithEmailSignup />

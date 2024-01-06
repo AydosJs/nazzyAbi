@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="text-white border-t border-neutral-800 mt-20 backdrop-blur-sm backdrop-filter body-font">
-      <div className="container p-8 mx-auto flex items-center sm:justify-between sm:flex-row flex-col">
+      <div className="container p-8 mx-auto flex items-center sm:justify-between flex-col sm:flex-row space-y-6 sm:space-y-0">
         <p className="text-sm text-gray-400 ">© 2024 RoadMap —
           <a href="https://www.youtube.com/@NizzyABI/videos" className="text-gray-400 ml-1 hover:text-white" rel="noopener noreferrer" target="_blank">@NizzyAbi</a>
         </p>
