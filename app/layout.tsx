@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`overflow-x-hidden bg-neutral-950 text-white ${inter.className} bg-[radial-gradient(#2e2e2e_1px,transparent_1px)] [background-size:16px_16px]`}>
+      <body className={`overflow-x-hidden bg-neutral-950 text-white ${inter.className} bg-[radial-gradient(#262626_1px,transparent_1px)] [background-size:16px_16px]`}>
         <Header />
 
         {children}

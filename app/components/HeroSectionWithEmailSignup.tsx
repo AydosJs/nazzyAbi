@@ -23,12 +23,12 @@ const HeroSectionWithEmailSignup = () => {
       clearTimeout(timerDiv);
     };
   }, []);
-
+  // sm:-top-32 md:-top-24 md:left-10 lg:left-60 lg:-top-10 2xl:-top-32 2xl:left-80
   return (
-    <div className="pb-32 md:pb-16 flex items-center flex-col space-y-10 min-h-[calc(100dvh-20px)] md:min-h-[calc(100dvh-85px)] justify-center">
+    <div className="relative pb-32 md:pb-16 flex items-center flex-col space-y-10 min-h-[calc(100dvh-20px)] md:min-h-[calc(100dvh-85px)] justify-center">
 
       <Spotlight
-        className="-top-0 sm:-top-32 left-10 md:-top-24 md:left-10 lg:left-60 lg:-top-10 2xl:-top-32 2xl:left-80"
+        className="hidden sm:block sm:-top-20 sm:left-2  md:-top-24 md:left-10 lg:left-60 lg:-top-10 2xl:-top-24 2xl:left-54"
         fill="white"
       />
 
