@@ -34,7 +34,7 @@ const HeroSectionWithEmailSignup = () => {
       <div>
         <TextGenerateEffect delay={0.4} words={'Learn. Build. Grow.'} className="text-4xl md:text-7xl font-bold text-center" />
         <motion.p
-          className="transition-all duration-300 ease-in-out delay-150 text-xs md:text-xl text-center font-normal text-gray-400"
+          className="transition-all duration-300 ease-in-out delay-150 text-xs md:text-xl text-center font-normal text-neutral-500"
           initial={{ opacity: 0 }}
           animate={{ opacity: isMounted ? 1 : 0 }}
           transition={{ duration: 3 }}

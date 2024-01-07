@@ -31,7 +31,7 @@ const Header = () => {
                 RoadMap
               </h1>
             </Link>
-            <span className="hidden sm:inline-block">
+            <span className="hidden sm:inline-block text-neutral-700">
               |
             </span>
             <div className="hidden sm:inline-block">

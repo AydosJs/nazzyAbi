@@ -37,7 +37,7 @@ const Accordion: React.FC<AccordionProps> = ({ title, content }) => {
       {isOpen && (
         <div className="flex my-4 md:mx-10 ">
           <span className="border border-neutral-700"></span>
-          <p className="max-w-3xl px-4 text-gray-400">
+          <p className="max-w-3xl px-4 text-neutral-400">
             {content}
           </p>
         </div>

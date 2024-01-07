@@ -9,8 +9,8 @@ const Steps = () => {
         <div className="flex flex-row">
           <div className="hidden md:flex flex-col items-center">
             <div className="w-32 py-5 border-gray-300 rounded mr-4 uppercase flex flex-col items-center justify-center">
-              <div className="text-3xl font-black text-gray-400">Step 1</div>
-              <div className="text-gray-400 text-sm">BASICS</div>
+              <div className="text-3xl font-black  text-neutral-500">Step 1</div>
+              <div className=" text-neutral-500 text-sm">BASICS</div>
             </div>
             <div className="h-full border-l-4 border-transparent">
               <div className="border-l-4 mr-4 h-full border-gray-300 border-dashed"></div>
@@ -19,9 +19,9 @@ const Steps = () => {
           <div className="flex-auto rounded  border-gray-300">
             <div className="flex md:flex-row flex-col items-center">
               <div className="flex-auto">
-                <div className="md:hidden text-sm font-normal uppercase pt-3 sm:pl-3 text-gray-400"><span className="font-black">Step 1</span> - Idea</div>
+                <div className="md:hidden text-sm font-normal uppercase pt-3 sm:pl-3  text-neutral-500"><span className="font-black">Step 1</span> - Idea</div>
                 <div className="py-3 text-3xl text-white font-semibold">The Basics</div>
-                <div className="text-gray-400">
+                <div className=" text-neutral-500">
                   You will start your programming journey at the very beginning. In section 1, you will learn the basics of code such as the different programming langauges, building your first website, data sturctures, algorithms, and modern day languages.
                 </div>
               </div>
@@ -45,8 +45,8 @@ const Steps = () => {
         <div className="flex flex-row-reverse">
           <div className="hidden md:flex flex-col items-center">
             <div className="w-32 py-5 border-gray-300 rounded ml-4 uppercase flex flex-col items-center justify-center">
-              <div className="text-3xl font-black text-gray-400">Step 2</div>
-              <div className="text-gray-400 text-sm">HTML $ CSS</div>
+              <div className="text-3xl font-black  text-neutral-500">Step 2</div>
+              <div className=" text-neutral-500 text-sm">HTML $ CSS</div>
             </div>
             {/* right line */}
             <div className="h-full border-r-4 border-transparent">
@@ -56,9 +56,9 @@ const Steps = () => {
           <div className="flex-auto rounded border-gray-300">
             <div className="flex md:flex-row flex-col items-center">
               <div className="flex-auto">
-                <div className="md:hidden text-sm font-normal uppercase pt-3 sm:pl-3 text-gray-400"><span className="font-black">Step 2</span> - Collaboration</div>
+                <div className="md:hidden text-sm font-normal uppercase pt-3 sm:pl-3  text-neutral-500"><span className="font-black">Step 2</span> - Collaboration</div>
                 <div className="py-3 text-3xl text-white font-semibold ">HTML, CSS, & JavaScript</div>
-                <div className=" text-gray-400">
+                <div className="  text-neutral-500">
                   Now that you have some programming experience, it’s time to get your hands dirty & learn your first languages for the web! In section 2, you’ll know how to build responsive websites & functional applications using HTML, CSS, & JavaScript which will be put on your resume.
                 </div>
               </div>
@@ -85,8 +85,8 @@ const Steps = () => {
         <div className="flex flex-row">
           <div className="hidden md:flex flex-col items-center">
             <div className="w-32 py-5 border-gray-300 rounded mr-4 uppercase flex flex-col items-center justify-center">
-              <div className="text-3xl font-black text-gray-400">Step 3</div>
-              <div className="text-gray-400 text-sm">FRONTEND</div>
+              <div className="text-3xl font-black  text-neutral-500">Step 3</div>
+              <div className=" text-neutral-500 text-sm">FRONTEND</div>
             </div>
             <div className="h-full border-l-4 border-transparent">
               <div className="border-l-4 mr-4 h-full border-gray-300 border-dashed"></div>
@@ -95,9 +95,9 @@ const Steps = () => {
           <div className="flex-auto rounded  border-gray-300">
             <div className="flex md:flex-row flex-col items-center">
               <div className="flex-auto">
-                <div className="md:hidden text-sm font-normal uppercase pt-3 sm:pl-3 text-gray-400"><span className="font-black">Step 3</span> - Planification</div>
+                <div className="md:hidden text-sm font-normal uppercase pt-3 sm:pl-3  text-neutral-500"><span className="font-black">Step 3</span> - Planification</div>
                 <div className="py-3 text-3xl text-white font">Frontend Frameworks</div>
-                <div className=" text-gray-400">
+                <div className="  text-neutral-500">
                   Knowing frameworks is a must if you want to get a job in tech. Over 60% of developers use a framework to help them code! So in section 3, you’ll learn & build projects in popular frameworks such as React.JS & Next.JS that can be used in your resume!
                 </div>
               </div>
@@ -123,8 +123,8 @@ const Steps = () => {
         <div className="flex flex-row-reverse">
           <div className="hidden md:flex flex-col items-center">
             <div className="w-32 py-5  border-gray-300 rounded ml-4 uppercase flex flex-col items-center justify-center">
-              <div className="text-3xl font-black text-gray-400">Step 4</div>
-              <div className="text-gray-400 text-sm">BACKEND</div>
+              <div className="text-3xl font-black  text-neutral-500">Step 4</div>
+              <div className=" text-neutral-500 text-sm">BACKEND</div>
             </div>
             <div className="h-full border-r-4 border-transparent">
               <div className="border-l-4 ml-4 h-full border-gray-300 border-dashed"></div>
@@ -134,9 +134,9 @@ const Steps = () => {
           <div className="flex-auto  rounded  border-gray-300">
             <div className="flex md:flex-row flex-col items-center">
               <div className="flex-auto">
-                <div className="md:hidden text-sm font-normal uppercase pt-3 sm:pl-3 text-gray-400"><span className="font-black">Step 4</span> - Implementation</div>
+                <div className="md:hidden text-sm font-normal uppercase pt-3 sm:pl-3  text-neutral-500"><span className="font-black">Step 4</span> - Implementation</div>
                 <div className="py-3 text-3xl text-white font">Backend Languages</div>
-                <div className=" text-gray-400">
+                <div className="  text-neutral-500">
                   Up to this point, you’ve only built ‘front-end’ applications (things that users can see). However, the backend is equally as important. IIt’s how we make accounts, store data, and create usernames & passwords.Thus, in section 4, you’ll learn about the backend languages (MongoDB, SQL & Firebase) so you can build apps that work.
                 </div>
               </div>
@@ -163,8 +163,8 @@ const Steps = () => {
         <div className="flex flex-row">
           <div className="hidden md:flex flex-col items-center">
             <div className="w-32 py-5 border-gray-300 rounded mr-4 uppercase flex flex-col items-center justify-center">
-              <div className="text-3xl font-black text-gray-400">Step 5</div>
-              <div className="text-gray-400 text-sm">FULLSTACK</div>
+              <div className="text-3xl font-black  text-neutral-500">Step 5</div>
+              <div className=" text-neutral-500 text-sm">FULLSTACK</div>
             </div>
             <div className="h-full border-l-4 border-transparent">
               <div className="border-l-4 mr-4 h-full border-gray-300 border-dashed"></div>
@@ -173,9 +173,9 @@ const Steps = () => {
           <div className="flex-auto rounded  border-gray-300">
             <div className="flex md:flex-row flex-col items-center">
               <div className="flex-auto">
-                <div className="md:hidden text-sm font-normal uppercase pt-3 sm:pl-3 text-gray-400"><span className="font-black">Step 5</span> - Planification</div>
+                <div className="md:hidden text-sm font-normal uppercase pt-3 sm:pl-3  text-neutral-500"><span className="font-black">Step 5</span> - Planification</div>
                 <div className="py-3 text-3xl text-white font">Fullstack Development</div>
-                <div className=" text-gray-400">
+                <div className="  text-neutral-500">
                   Until now, you’ve built frontend & backend seperatly. Now it’s time to bring it all together with a ‘fullstack app’ (using frontend & backend together). In section 5, you will build your first ever full stack app that can be put in your resume!
                 </div>
               </div>
@@ -202,8 +202,8 @@ const Steps = () => {
         <div className="flex flex-row-reverse">
           <div className="hidden md:flex flex-col items-center">
             <div className="w-32 py-5  border-gray-300 rounded ml-4 uppercase flex flex-col items-center justify-center">
-              <div className="text-3xl font-black text-gray-400">Step 6</div>
-              <div className="text-gray-400 text-sm">FINISH</div>
+              <div className="text-3xl font-black  text-neutral-500">Step 6</div>
+              <div className=" text-neutral-500 text-sm">FINISH</div>
             </div>
             <div className="h-full border-r-4 border-transparent">
               <div className="border-l-4 ml-4 h-full border-gray-300 border-dashed"></div>
@@ -213,9 +213,9 @@ const Steps = () => {
           <div className="flex-auto  rounded  border-gray-300">
             <div className="flex md:flex-row flex-col items-center">
               <div className="flex-auto">
-                <div className="md:hidden text-sm font-normal uppercase pt-3 sm:pl-3 text-gray-400"><span className="font-black">Step 6</span> - Implementation</div>
+                <div className="md:hidden text-sm font-normal uppercase pt-3 sm:pl-3  text-neutral-500"><span className="font-black">Step 6</span> - Implementation</div>
                 <div className="py-3 text-3xl text-white font">Finishing Touches</div>
-                <div className=" text-gray-400">
+                <div className="  text-neutral-500">
                   If you want to stand out to employers & be an above average developer, you’ll want to learn about github, software architecture, & design principles. That’s exactly what you will learn in section 6.
                 </div>
               </div>
@@ -243,8 +243,8 @@ const Steps = () => {
         <div className="flex flex-row">
           <div className="hidden md:flex flex-col items-center">
             <div className="w-32 py-5 border-gray-300 rounded mr-4 uppercase flex flex-col items-center justify-center">
-              <div className="text-3xl font-black text-gray-400">Step 7</div>
-              <div className="text-gray-400 text-sm">JOB</div>
+              <div className="text-3xl font-black  text-neutral-500">Step 7</div>
+              <div className=" text-neutral-500 text-sm">JOB</div>
             </div>
             <div className="h-full border-l-4 border-transparent">
               <div className="border-l-4 mr-4 h-full border-gray-300 border-dashed"></div>
@@ -253,9 +253,9 @@ const Steps = () => {
           <div className="flex-auto rounded  border-gray-300">
             <div className="flex md:flex-row flex-col items-center">
               <div className="flex-auto">
-                <div className="md:hidden text-sm font-normal uppercase pt-3 sm:pl-3 text-gray-400"><span className="font-black">Step 7</span> - Planification</div>
+                <div className="md:hidden text-sm font-normal uppercase pt-3 sm:pl-3  text-neutral-500"><span className="font-black">Step 7</span> - Planification</div>
                 <div className="py-3 text-3xl text-white font">Land a Job</div>
-                <div className=" text-gray-400">
+                <div className="  text-neutral-500">
                   Until now, you’ve built frontend & backend seperatly. Now it’s time to bring it all together with a ‘fullstack app’ (using frontend & backend together). In section 5, you will build your first ever full stack app that can be put in your resume!
                 </div>
               </div>

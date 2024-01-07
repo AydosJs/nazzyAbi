@@ -9,7 +9,7 @@ const Different = () => {
           <h1 className="text-left text-4xl md:text-5xl mb-6 font-bold">
             <span className="text-8xl">H</span>ow is this roadmap different?
           </h1>
-          <p className="text-gray-400 text-lg">
+          <p className="text-neutral-500 text-lg">
             Unlike college & programming bootcamps, not only will you learn how
             to code, but will do so by building applicable projects for job
             applications, learning how code works behind the scenes, & truly
