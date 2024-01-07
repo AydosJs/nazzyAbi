@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const Different = () => {
   return (
     <div className="flex flex-col space-y-10 text-left w-full">
@@ -27,42 +29,42 @@ const Different = () => {
 
       <div className="flex flex-col md:flex-row space-y-4 sm:space-y-0 md:space-x-4">
 
-        <div className="w-full md:w-1/2 border border-neutral-800 rounded-md p-6 group cursor-pointer bg-white bg-opacity-5 hover:backdrop-blur-[1px] backdrop-filter">
-          <img
-            className="w-full h-60"
-            src="https://placehold.co/462x240"
-            alt="no image"
-          />
-          <h1 className="text-xl font-medium mt-6 group-hover:underline">
-            Voice assistant
-          </h1>
-        </div>
-
-        <div className="w-full md:w-1/2 border border-neutral-800 rounded-md p-6 group cursor-pointer bg-white bg-opacity-5 hover:backdrop-blur-[1px] backdrop-filter">
-          {/* <div className="w-full h-60">
-            <Image src="/462x240" alt='no image'
-              width={0} height={0} sizes="100vw"
-              className="w-full h-auto"
+        <Link target="blank" href={'https://voicescribe-ai.com/'} className="w-full md:w-1/2">
+          <div className=" border border-neutral-800 rounded-md p-6 group cursor-pointer bg-white bg-opacity-5 hover:backdrop-blur-[1px] backdrop-filter">
+            <img
+              className="w-full h-60"
+              src="https://nizzyabi-roadmap.com/_next/image?url=%2Fscribe.png&w=1920&q=75"
+              alt="no image"
             />
-          </div> */}
-          <img
-            className="w-full h-60"
-            src="https://placehold.co/462x240"
-            alt="no image"
-          />
+            <h1 className="text-xl font-medium mt-6 group-hover:underline">
+              Voice assistant
+            </h1>
+          </div>
+        </Link>
 
-          <h1 className="text-xl font-medium mt-6 group-hover:underline">
-            My Mentor AI
-          </h1>
-        </div>
+        <Link target="blank" href="https://www.mymentorai.app/about" className="w-full md:w-1/2">
+          <div className=" border border-neutral-800 rounded-md p-6 group cursor-pointer bg-white bg-opacity-5 hover:backdrop-blur-[1px] backdrop-filter">
+            <img
+              className="w-full h-60"
+              src="https://nizzyabi-roadmap.com/_next/image?url=%2Fmentor.png&w=1920&q=75"
+              alt="no image"
+            />
+
+            <h1 className="text-xl font-medium mt-6 group-hover:underline">
+              My Mentor AI
+            </h1>
+          </div>
+        </Link>
       </div>
 
-      <button className="inline-flex animate-shimmer items-center justify-center rounded-md border border-neutral-800 bg-[linear-gradient(110deg,transparent,45%,#525252,55%,transparent)] bg-[length:200%_100%] bg-white bg-opacity-5 p-6 hover:backdrop-blur-[1px] backdrop-filter text-white transition-colors outline-none">
-        GET STARTED
-        <span className="text-xl ml-4">
-          -&gt;
-        </span>
-      </button>
+      <Link href={'#'} className="w-full">
+        <button className="w-full inline-flex animate-shimmer items-center justify-center rounded-md border border-neutral-800 bg-[linear-gradient(110deg,transparent,45%,#525252,55%,transparent)] bg-[length:200%_100%] bg-white bg-opacity-5 p-6 hover:backdrop-blur-[1px] backdrop-filter text-white transition-colors outline-none">
+          GET STARTED
+          <span className="text-xl ml-4">
+            -&gt;
+          </span>
+        </button>
+      </Link>
 
     </div>
   )

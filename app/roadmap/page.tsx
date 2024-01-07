@@ -21,9 +21,7 @@ const page = () => {
       </div>
 
       <section className='grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10'>
-
         <RoadmapCardList />
-
       </section>
 
     </main>

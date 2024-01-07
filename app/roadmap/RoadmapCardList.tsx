@@ -115,7 +115,7 @@ const RoadmapCardList = () => {
           onClick={() => handleCheck(item.id)}
           className={`min-h-[226px] group relative flex flex-col cursor-pointer space-y-6 border border-neutral-800 backdrop-blur-[1px] backdrop-filter bg-white ${!item.checked ? 'bg-opacity-5 ' : 'bg-opacity-10'} p-4 sm:p-6 rounded-md overflow-hidden bg-[linear-gradient(45deg,transparent_25%,rgba(68,68,68,.4)_50%,transparent_75%,transparent_100%)] bg-[length:250%_250%,100%_100%] bg-[position:-100%_0,0_0] bg-no-repeat hover:bg-[position:200%_0,0_0] hover:duration-[1000ms]`}
         >
-          <div className="min-h-[80px]">
+          <div className="min-h-[82px]">
             <h1 className='text-xl sm:text-2xl mb-1'>
               {++index}.&nbsp;
               {item.title}
