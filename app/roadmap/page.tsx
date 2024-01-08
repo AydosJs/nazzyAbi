@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import RoadmapCardList from './RoadmapCardList'
+import RoadmapCardList from '@/components/RoadmapCardList'
 
 const page = () => {
   return (

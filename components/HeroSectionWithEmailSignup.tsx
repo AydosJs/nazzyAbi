@@ -1,7 +1,7 @@
 'use client'
 
-import Spotlight from "./ui/Spotlight"
-import { TextGenerateEffect } from "./ui/TextGenerateEffect"
+import Spotlight from "@/components/ui/Spotlight"
+import { TextGenerateEffect } from "@/components/ui/TextGenerateEffect"
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 

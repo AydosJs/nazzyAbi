@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from 'next/link'
 import { usePathname } from "next/navigation";
-import YoutubeLink from "./ui/YoutubeLink";
+import YoutubeLink from "@/components/ui/YoutubeLink";
 
 const Header = () => {
   const path = usePathname()
