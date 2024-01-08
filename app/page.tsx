@@ -1,7 +1,7 @@
-import Different from "./components/Different";
-import Faq from "./components/Faq";
-import HeroSectionWithEmailSignup from "./components/HeroSectionWithEmailSignup";
-import Steps from "./components/Steps";
+import Different from "../components/Different";
+import Faq from "../components/Faq";
+import HeroSectionWithEmailSignup from "../components/HeroSectionWithEmailSignup";
+import Steps from "../components/Steps";
 
 export default function Home() {
   return (
